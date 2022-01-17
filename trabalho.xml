@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edificio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="trabalho.xsd">
+
+    <nome>Mosteiro de São Bento</nome>
+
+    <tipologia>monumento</tipologia>
+
+    <localidade>Santo Tirso</localidade>
+
+    <facilidade>
+        <designacao>Parque de Estacionamento</designacao>
+        <capacidade>50</capacidade>
+    </facilidade>
+
+    <proposta>
+        <descricao>Painéis fotovoltaicos</descricao>
+        <custo>3500</custo>
+    </proposta>
+
+    <proposta>
+        <descricao>Melhorar a iluminação envolvente</descricao>
+        <custo>1000</custo>
+    </proposta>
+</edificio>

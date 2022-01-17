@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="edificio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nome" type="xs:string"></xs:element>
+
+                <xs:element ref="tipologia"></xs:element>
+
+                <xs:element name="localidade" type="xs:string"></xs:element>
+
+                <xs:element ref="facilidade" maxOccurs="unbounded"></xs:element>
+
+                <!-- estou em dúvida se deixo aqui a proposta, ou coloco fora do edificio -->
+                <xs:element ref="proposta" maxOccurs="3"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <!-- elementos -->
+    <xs:element name="tipologia">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="monumento"></xs:enumeration>
+                <xs:enumeration value="loja"></xs:enumeration>
+                <xs:enumeration value="restaurante"></xs:enumeration>
+                <xs:enumeration value="hotel"></xs:enumeration>
+                <xs:enumeration value="outro"></xs:enumeration>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="facilidade">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="designacao" type="xs:string"></xs:element>
+                <xs:element name="capacidade" type="xs:integer"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="proposta">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="descricao" type="xs:string"></xs:element>
+                <xs:element name="custo" type="xs:integer"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
