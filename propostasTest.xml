@@ -1,0 +1,27 @@
+<edificio id="1">
+  <nome>Mosteiro de São Bento</nome>
+  <tipologia>monumento</tipologia>
+  <localidade>Felgueiras</localidade>
+  <facilidade>
+        <designacao>Parque de Estacionamento</designacao>
+        <capacidade>50</capacidade>
+    </facilidade>
+  <proposta>
+        <descricao>Painéis fotovoltaicos</descricao>
+        <custo>5000</custo>
+    </proposta>
+</edificio>
+<edificio id="1">
+  <nome>Mosteiro de São Bento</nome>
+  <tipologia>monumento</tipologia>
+  <localidade>Felgueiras</localidade>
+  <facilidade>
+        <designacao>Parque de Estacionamento</designacao>
+        <capacidade>50</capacidade>
+    </facilidade>
+  <proposta>
+        <descricao>Painéis fotovoltaicos</descricao>
+        <custo>5000</custo>
+    </proposta>
+  <nivelSatisfacao>100</nivelSatisfacao>
+</edificio>

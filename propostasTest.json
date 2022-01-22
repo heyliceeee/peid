@@ -1,0 +1,17 @@
+{
+    "edificio": {
+        "id": "1",
+        "nome": "Mosteiro de São Bento",
+        "tipologia": "monumento",
+        "localidade": "Santo Tirso",
+        "facilidade": {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "50"
+        },
+        "proposta": {
+            "descricao": "Painéis fotovoltaicos",
+            "custo": "5000"
+        },
+        "nivelSatisfacao": "100"
+    }
+}
