@@ -29,8 +29,16 @@ function page:addProposta($body) {
     
     let $some := some $newBody in ("trabalho.xq") satisfies ($proposta) (: verificar se o proposta vem vazio (sem proposta aceite) :)
     
+    (:
     return (update:output("Sucesso. Proposta válida"), db:add("propostas", $newBody, "trabalho.xml"))
+    :)
     
+    return if($some) then
+      
+      (update:output("Sucesso. Proposta válida"), db:add("propostas", $newBody, "trabalho.xml"))
+      
+   else
+    update:output(" Erro. Proposta inválida. Tente novamente")
     
    (: return if ($some = 'true()') then
       
