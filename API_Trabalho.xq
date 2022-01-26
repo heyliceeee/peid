@@ -40,6 +40,8 @@ function page:addProposta($body) {
    else
     update:output(" Erro. Proposta inválida. Tente novamente")
     
+    
+    
    (: return if ($some = 'true()') then
       
       db:add("propostas", $newBody, "trabalho.xml")
@@ -57,7 +59,7 @@ function page:addProposta($body) {
 declare
   %updating
   %rest:path("/avaliar/{$id}")
-  %rest:POST("{$nivel}")
+  %rest:PUT("{$nivel}")
   
   
 function page:avaliar($id, $nivel as xs:integer) {
