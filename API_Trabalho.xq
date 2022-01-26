@@ -22,9 +22,7 @@ declare
   
 function page:addProposta($body) {
    
-   (:
-  let $fd := 5000 - sum(db:open("propostas")/edificio[./localidade/text() = $body//localidade]//custo) (: fd (financiamento disponível) = financiamento máximo - soma do custo das propostas aceites numa determinada localidade :)
-  :) 
+
   
   let $fd := page:financiamento($body//localidade)
   
@@ -70,6 +68,7 @@ declare
   function page:avaliar($id, $nivel as xs:integer) {
     
    insert nodes <nivelSatisfacao>{$nivel}</nivelSatisfacao> after db:open("propostas")/edificio[@id = $id]//proposta
+   (: Insere o node "<nivelSatisfacao>{$nivel}</nivelSatisfacao>" após proposta na bd em q o id do edificio seja igual ao id inserido no path :)
    
    
 };
