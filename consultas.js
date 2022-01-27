@@ -294,4 +294,43 @@ db.edificios.aggregate([
                 }
             }
         }
-    ]
+    ])
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+        Apresentar a percentagem dos edificios por tipo de proposta
+-------------------------------------------------------------------------------------------------------------------------
+
+var total = db.edificios.count()
+
+db.edificios.aggregate([
+    {
+        '$group': {
+            '_id': '$proposta.descricao', 
+            'count': {
+                '$sum': 1
+            }
+        }
+    }, {
+        '$project': {
+            '_id': 0, 
+            'Proposta': '$_id', 
+            'percentagem': {
+                '$concat': [
+                    {
+                        '$toString': {
+                            '$multiply': [
+                                {
+                                    '$divide': [
+                                        '$count', total
+                                    ]
+                                }, 100
+                            ]
+                        }
+                    }, '%'
+                ]
+            }
+        }
+    }
+])
