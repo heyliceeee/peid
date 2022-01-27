@@ -1,0 +1,472 @@
+[
+   {
+      "id": "1",
+      "nome": "Mosteiro de São Bento",
+      "tipologia": "monumento",
+      "localidade": "Santo Tirso",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "50"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      },
+      "nivelSatisfacao": "83"
+   },
+   {
+      "id": "2",
+      "nome": "Armazéns do Chiado",
+      "tipologia": "loja",
+      "localidade": "Lisboa",
+      "facilidade": [
+         {
+            "designacao": "Multibanco",
+            "capacidade": "5"
+         },
+         {
+            "designacao": "Plataforma elevatória de escadas",
+            "capacidade": "1"
+         },
+         {
+            "designacao": "Fraldário",
+            "capacidade": "1"
+         },
+         {
+            "designacao": "WC",
+            "capacidade": "2"
+         },
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "5000"
+      }
+   },
+   {
+      "id": "3",
+      "nome": "Alma Shopping",
+      "tipologia": "loja",
+      "localidade": "Coimbra",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "1961"
+         },
+         {
+            "designacao": "Fraldário",
+            "capacidade": "1"
+         },
+         {
+            "designacao": "WC",
+            "capacidade": "2"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "2000"
+      }
+   },
+   {
+      "id": "4",
+      "nome": "Braga Parque",
+      "tipologia": "loja",
+      "localidade": "Braga",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "2500"
+         },
+         {
+            "designacao": "Multibanco",
+            "capacidade": "10"
+         },
+         {
+            "designacao": "Fraldário",
+            "capacidade": "3"
+         },
+         {
+            "designacao": "WC",
+            "capacidade": "12"
+         },
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Ventilação Natural",
+         "custo": "1000"
+      }
+   },
+   {
+      "id": "5",
+      "nome": "MaiaShopping",
+      "tipologia": "loja",
+      "localidade": "Maia",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "1000"
+         },
+         {
+            "designacao": "Multibanco",
+            "capacidade": "5"
+         },
+         {
+            "designacao": "Fraldário",
+            "capacidade": "2"
+         },
+         {
+            "designacao": "WC",
+            "capacidade": "2"
+         },
+         {
+            "designacao": "Plataforma elevatória de escadas",
+            "capacidade": "1"
+         },
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Ventilação Natural",
+         "custo": "1000"
+      },
+      "nivelSatisfacao": "45"
+   },
+   {
+      "id": "6",
+      "nome": "Vila de Conde Fashion Outlet",
+      "tipologia": "loja",
+      "localidade": "Vila de Conde",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "500"
+         },
+         {
+            "designacao": "Multibanco",
+            "capacidade": "5"
+         },
+         {
+            "designacao": "WC",
+            "capacidade": "10"
+         },
+         {
+            "designacao": "Plataforma elevatória de escadas",
+            "capacidade": "1"
+         },
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Ventilação Natural",
+         "custo": "1000"
+      }
+   },
+   {
+      "id": "7",
+      "nome": "Castelo de Guimarães",
+      "tipologia": "monumento",
+      "localidade": "Guimarães",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "500"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      }
+   },
+   {
+      "id": "8",
+      "nome": "Palácio Nacional da Pena",
+      "tipologia": "monumento",
+      "localidade": "Sintra",
+      "facilidade": [
+         {
+            "designacao": "Plataforma elevatória de escadas",
+            "capacidade": "1"
+         },
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "500"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      },
+      "nivelSatisfacao": "25"
+   },
+   {
+      "id": "9",
+      "nome": "Mosteiro da Batalha",
+      "tipologia": "monumento",
+      "localidade": "Batalha",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "500"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      }
+   },
+   {
+      "id": "10",
+      "nome": "Palácio da Bolsa",
+      "tipologia": "monumento",
+      "localidade": "Porto",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "500"
+         },
+         {
+            "designacao": "WC",
+            "capacidade": "5"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      }
+   },
+   {
+      "id": "11",
+      "nome": "La Bonne Crêpe",
+      "tipologia": "restaurante",
+      "localidade": "Viana do Castelo",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "10"
+         },
+         {
+            "designacao": "Plataforma elevatória de escadas",
+            "capacidade": "1"
+         },
+         {
+            "designacao": "WC",
+            "capacidade": "2"
+         },
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      }
+   },
+   {
+      "id": "12",
+      "nome": "MUU Steakhouse",
+      "tipologia": "restaurante",
+      "localidade": "Porto",
+      "facilidade": [
+         {
+            "designacao": "Plataforma elevatória de escadas",
+            "capacidade": "1"
+         },
+         {
+            "designacao": "WC",
+            "capacidade": "2"
+         },
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Melhorar a iluminação envolvente",
+         "custo": "1000"
+      }
+   },
+   {
+      "id": "13",
+      "nome": "Restaurante Bela Época",
+      "tipologia": "restaurante",
+      "localidade": "Bragança",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "10"
+         },
+         {
+            "designacao": "Plataforma elevatória de escadas",
+            "capacidade": "1"
+         },
+         {
+            "designacao": "WC",
+            "capacidade": "2"
+         },
+         {
+            "designacao": "Multibanco",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      }
+   },
+   {
+      "id": "14",
+      "nome": "Flor Da Rocha",
+      "tipologia": "hotel",
+      "localidade": "Portimão",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "50"
+         },
+         {
+            "designacao": "Piscina",
+            "capacidade": "2"
+         },
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      },
+      "nivelSatisfacao": "90"
+   },
+   {
+      "id": "15",
+      "nome": "Jupiter Algarve Hotel",
+      "tipologia": "hotel",
+      "localidade": "Portimão",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "50"
+         },
+         {
+            "designacao": "Piscina",
+            "capacidade": "2"
+         },
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Melhorar a iluminação envolvente",
+         "custo": "1000"
+      },
+      "nivelSatisfacao": "75"
+   },
+   {
+      "id": "16",
+      "nome": "BessaHotel Baixa",
+      "tipologia": "hotel",
+      "localidade": "Felgueiras",
+      "facilidade": [
+         {
+            "designacao": "Parque de Estacionamento",
+            "capacidade": "50"
+         },
+         {
+            "designacao": "Piscina",
+            "capacidade": "1"
+         },
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "5000"
+      },
+      "nivelSatisfacao": "39"
+   },
+   {
+      "id": "17",
+      "nome": "Torre Vasco da Gama",
+      "tipologia": "outro",
+      "localidade": "Évora",
+      "facilidade": {
+         "designacao": "Wi-Fi",
+         "capacidade": "1"
+      },
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      }
+   },
+   {
+      "id": "18",
+      "nome": "Torre de Mosanto",
+      "tipologia": "outro",
+      "localidade": "Setúbal",
+      "facilidade": [
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      },
+      "nivelSatisfacao": "9"
+   },
+   {
+      "id": "19",
+      "nome": "Torres São Rafael/São Gabriel",
+      "tipologia": "outro",
+      "localidade": "Faro",
+      "facilidade": [
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         },
+         {
+            "designacao": "Sistema de Segurança",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      }
+   },
+   {
+      "id": "20",
+      "nome": "Torre do Lidador",
+      "tipologia": "outro",
+      "localidade": "Maia",
+      "facilidade": [
+         {
+            "designacao": "Wi-Fi",
+            "capacidade": "1"
+         }
+      ],
+      "proposta": {
+         "descricao": "Painéis fotovoltaicos",
+         "custo": "4000"
+      },
+      "nivelSatisfacao": "100"
+   }
+]
