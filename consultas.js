@@ -66,11 +66,13 @@ docs.forEach(function (doc) {
     ])
 
 
+
 -------------------------------------------------------------------------------------------------------------------------
     Renomear a coleção "admin_name" e "population" na coleção "Coordenadas"
 -------------------------------------------------------------------------------------------------------------------------
 
     db.coordenadas.updateMany({}, { $rename: { "admin_name": "distrito", "population": "populacao" } })
+<<<<<<< HEAD
 
 
 
@@ -84,6 +86,8 @@ docs.forEach(function (doc) {
             }
         }
     )
+=======
+>>>>>>> 1ad2ee2202b69350acc6fe484e28ef6b0021adea
 
 
 
@@ -95,6 +99,7 @@ docs.forEach(function (doc) {
         { '$addFields': { "populacao": { $toInt: "$populacao" } } },
         { '$out': "coordenadas" }
     ])
+
 
 
 -------------------------------------------------------------------------------------------------------------------------
@@ -112,6 +117,9 @@ db.edificios.updateMany({}, { $unset: { "coordenada.iso2": "" } })
 db.edificios.updateMany({}, { $unset: { "coordenada.capital": "" } })
 db.edificios.updateMany({}, { $unset: { "coordenada.population_proper": "" } })
 db.edificios.updateMany({}, { $unset: { "coordenada.city": "" } })
+
+
+
 
 
 
