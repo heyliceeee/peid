@@ -70,7 +70,20 @@ docs.forEach(function (doc) {
     Renomear a coleção "admin_name" e "population" na coleção "Coordenadas"
 -------------------------------------------------------------------------------------------------------------------------
 
-    db.coordenadas.updateMany( {}, { $rename: { "admin_name": "distrito", "population": "populacao" } } )
+    db.coordenadas.updateMany({}, { $rename: { "admin_name": "distrito", "population": "populacao" } })
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+    Converter "populacao" para "0" caso seja vazio na coleção "Coordenadas"
+-------------------------------------------------------------------------------------------------------------------------
+
+    db.coordenadas.updateMany({populacao: ""}, {
+            '$set': {
+                'populacao': '0'
+            }
+        }
+    )
 
 
 
@@ -80,7 +93,7 @@ docs.forEach(function (doc) {
 
     db.coordenadas.aggregate([
         { '$addFields': { "populacao": { $toInt: "$populacao" } } },
-        { '$out' : "coordenadas" }
+        { '$out': "coordenadas" }
     ])
 
 
