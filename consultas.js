@@ -246,3 +246,22 @@ db.edificios.aggregate([
     Apresentar o total de edificios por localidade
 -------------------------------------------------------------------------------------------------------------------------
 
+    db.edificios.aggregate([
+    {
+        '$group': {
+            '_id': '$localidade', 
+            'total': {
+                '$sum': 1
+            }
+        }
+    }, {
+        '$project': {
+            '_id': 0, 
+            'localidade': '$_id', 
+            'total': '$total'
+        }
+    }
+    ])
+
+
+
