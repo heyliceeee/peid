@@ -147,15 +147,11 @@ db.edificios.updateMany({}, { $unset: { "coordenada.population_proper": "" } })
 
 
 -------------------------------------------------------------------------------------------------------------------------
-<<<<<<< Updated upstream
     Apresentar, por distrito e por tipologia, a média do custo das propostas aceites
-=======
-    Apresentar, por distrito e por tipologia, a média do custo das propostas aceites 
-
+    
     Nota - Distrito -  Ordenado pela Média Descendente
 
     Nota - Tiplogia -  Ordenado pela tipologia ascendente
->>>>>>> Stashed changes
 -------------------------------------------------------------------------------------------------------------------------
 
     //por distrito
