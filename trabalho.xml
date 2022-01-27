@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <edificio>
 
-    <nome>Mosteiro de São Bento</nome>
+    <nome>TESTE</nome>
 
     <tipologia>monumento</tipologia>
 
-    <localidade>Felgueiras</localidade>
+    <localidade>Lixa</localidade>
 
     <facilidade>
         <designacao>Parque de Estacionamento</designacao>
@@ -14,11 +14,11 @@
 
     <proposta>
         <descricao>Painéis fotovoltaicos</descricao>
-        <custo>5000</custo>
+        <custo>4000</custo>
     </proposta>
 
     <proposta>
         <descricao>Melhorar a iluminação envolvente</descricao>
-        <custo>5000</custo>
+        <custo>1000</custo>
     </proposta>
 </edificio>
