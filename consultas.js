@@ -123,22 +123,22 @@ db.edificios.updateMany({}, { $unset: { "coordenada.population_proper": "" } })
     CONSULTAS
 -------------------------------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------------
         Apresentar total edifícios registados, por tipologia(monumento, ...)
 -------------------------------------------------------------------------------------------------------------------------
 
     db.edificios.aggregate([
         {
             '$group': {
-                '_id': '$tipologia', 
+                '_id': '$tipologia',
                 'totalEdificios': {
                     '$sum': 1
                 }
             }
         }, {
             '$project': {
-                '_id': 0, 
-                'tipologia': '$_id', 
+                '_id': 0,
+                'tipologia': '$_id',
                 'totalEdificios': '$totalEdificios'
             }
         }
@@ -147,38 +147,34 @@ db.edificios.updateMany({}, { $unset: { "coordenada.population_proper": "" } })
 
 
 -------------------------------------------------------------------------------------------------------------------------
-<<<<<<< Updated upstream
     Apresentar, por distrito e por tipologia, a média do custo das propostas aceites
-=======
-    Apresentar, por distrito e por tipologia, a média do custo das propostas aceites 
 
-    Nota - Distrito -  Ordenado pela Média Descendente
+Nota - Distrito - Ordenado pela Média Descendente
 
-    Nota - Tiplogia -  Ordenado pela tipologia ascendente
->>>>>>> Stashed changes
+Nota - Tipologia - Ordenado pela tipologia ascendente
 -------------------------------------------------------------------------------------------------------------------------
 
     //por distrito
 
     db.edificios.aggregate([
-            {
-                '$group': {
-                    '_id': '$coordenada.distrito', 
-                    'media': {
-                        '$avg': '$proposta.custo'
-                    }
-                }
-            }, {
-                '$project': {
-                    '_id': 0, 
-                    'distrito': '$_id', 
-                    'media': '$media'
-                }
-            }, {
-                '$sort': {
-                    'media': -1
+        {
+            '$group': {
+                '_id': '$coordenada.distrito',
+                'media': {
+                    '$avg': '$proposta.custo'
                 }
             }
+        }, {
+            '$project': {
+                '_id': 0,
+                'distrito': '$_id',
+                'media': '$media'
+            }
+        }, {
+            '$sort': {
+                'media': -1
+            }
+        }
     ])
 
 
@@ -188,15 +184,15 @@ db.edificios.updateMany({}, { $unset: { "coordenada.population_proper": "" } })
 db.edificios.aggregate([
     {
         '$group': {
-            '_id': '$tipologia', 
+            '_id': '$tipologia',
             'media': {
                 '$avg': '$proposta.custo'
             }
         }
     }, {
         '$project': {
-            '_id': 0, 
-            'tipologia': '$_id', 
+            '_id': 0,
+            'tipologia': '$_id',
             'media': '$media'
         }
     }, {
