@@ -72,7 +72,7 @@ docs.forEach(function (doc) {
 -------------------------------------------------------------------------------------------------------------------------
 
     db.coordenadas.updateMany({}, { $rename: { "admin_name": "distrito", "population": "populacao" } })
-<<<<<<< HEAD
+
 
 
 
@@ -86,8 +86,6 @@ docs.forEach(function (doc) {
             }
         }
     )
-=======
->>>>>>> 1ad2ee2202b69350acc6fe484e28ef6b0021adea
 
 
 
