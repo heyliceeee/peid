@@ -265,3 +265,33 @@ db.edificios.aggregate([
 
 
 
+-------------------------------------------------------------------------------------------------------------------------
+    Apresentar o Financiamento Disponivel por localidade
+-------------------------------------------------------------------------------------------------------------------------
+
+    db.edificios.aggregate([
+        {
+            '$group': {
+                '_id': '$localidade', 
+                'totalPropostas': {
+                    '$sum': '$proposta.custo'
+                }
+            }
+        }, {
+            '$project': {
+                '_id': 0, 
+                'localidade': '$_id', 
+                'F_Disponivel': {
+                    '$concat': [
+                        {
+                            '$toString': {
+                                '$subtract': [
+                                    5000, '$totalPropostas'
+                                ]
+                            }
+                        }, ' €'
+                    ]
+                }
+            }
+        }
+    ]
