@@ -75,17 +75,15 @@ docs.forEach(function (doc) {
 
 
 
-
 -------------------------------------------------------------------------------------------------------------------------
     Converter "populacao" para "0" caso seja vazio na coleção "Coordenadas"
 -------------------------------------------------------------------------------------------------------------------------
 
-    db.coordenadas.updateMany({populacao: ""}, {
-            '$set': {
-                'populacao': '0'
-            }
+    db.coordenadas.updateMany({ populacao: "" }, {
+        '$set': {
+            'populacao': '0'
         }
-    )
+    })
 
 
 
@@ -110,11 +108,11 @@ coor.forEach(function (doc) {
     db.edificios.updateMany({ localidade: doc.city }, { $set: { "coordenada": doc } });
 });
 db.edificios.updateMany({}, { $unset: { "coordenada._id": "" } })
+db.edificios.updateMany({}, { $unset: { "coordenada.city": "" } })
 db.edificios.updateMany({}, { $unset: { "coordenada.country": "" } })
 db.edificios.updateMany({}, { $unset: { "coordenada.iso2": "" } })
 db.edificios.updateMany({}, { $unset: { "coordenada.capital": "" } })
 db.edificios.updateMany({}, { $unset: { "coordenada.population_proper": "" } })
-db.edificios.updateMany({}, { $unset: { "coordenada.city": "" } })
 
 
 
@@ -127,8 +125,6 @@ db.edificios.updateMany({}, { $unset: { "coordenada.city": "" } })
 
     -------------------------------------------------------------------------------------------------------------------------
         Apresentar total edifícios registados, por tipologia(monumento, ...)
-
---nao tenho acerteza se funciona--
 -------------------------------------------------------------------------------------------------------------------------
 
     db.edificios.aggregate([
@@ -139,8 +135,6 @@ db.edificios.updateMany({}, { $unset: { "coordenada.city": "" } })
 
 -------------------------------------------------------------------------------------------------------------------------
     Apresentar, por distrito e por tipologia, a média do custo das propostas aceites
-
---nao tenho acerteza se funciona--
 -------------------------------------------------------------------------------------------------------------------------
 
     //por distrito
@@ -161,11 +155,43 @@ db.edificios.aggregate([
 
 -------------------------------------------------------------------------------------------------------------------------
     Apresentar a percentagem das propostas aceites que obtiveram um nível de satisfação superior a 90
-
---nao tenho acerteza se funciona(n quero mostrar o _id)--
 -------------------------------------------------------------------------------------------------------------------------
 
-    db.edificios.aggregate([
-        { '$match': { 'nivelSatisfacao': { '$gte': 90 } } },
-        { '$project': { 'percentagem': { '$multiply': [{ '$divide': ['$nivelSatisfacao', 100] }, 100] } } }
-    ])
+    var total = db.edificios.count()
+
+db.edificios.aggregate([
+    {
+        '$match': { 'nivelSatisfacao': { '$gte': 90 } }
+    },
+
+    {
+        '$group': {
+            '_id': 0,
+            'count90': { '$sum': 1 }
+        }
+    },
+
+    {
+        '$project': {
+            '_id': 0,
+            'percentagem': {
+                '$concat': [
+                    {
+                        '$toString': {
+                            '$multiply': [
+                                { '$divide': ['$count90', total] }, 100
+                            ]
+                        }
+                    }, '%'
+                ]
+            }
+        }
+    }
+])
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+    Apresentar o total de edificios por localidade
+-------------------------------------------------------------------------------------------------------------------------
+
