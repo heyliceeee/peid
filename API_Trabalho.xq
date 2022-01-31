@@ -1,6 +1,6 @@
 module namespace page = 'http://basex.org/examples/web-page';
 
-(: ------ submeter edificio - PROBLEMA: mesmo q nenhuma proposta do edificio seja aceite, submete na db as informações acerca do edificio ------ :)
+(: ------ submeter edificio ------ :)
 
 declare function page:financiamento(
   $localidade as xs:string) {
