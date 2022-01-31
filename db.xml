@@ -1,0 +1,412 @@
+<edificio id="1">
+    <nome>Mosteiro de São Bento</nome>
+    <tipologia>monumento</tipologia>
+    <localidade>Santo Tirso</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>50</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+    <nivelSatisfacao>83</nivelSatisfacao>
+  </edificio>
+  <edificio id="2">
+    <nome>Armazéns do Chiado</nome>
+    <tipologia>loja</tipologia>
+    <localidade>Lisboa</localidade>
+    <facilidade>
+          <designacao>Multibanco</designacao>
+          <capacidade>5</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Plataforma elevatória de escadas</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Fraldário</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>WC</designacao>
+          <capacidade>2</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>5000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="3">
+    <nome>Alma Shopping</nome>
+    <tipologia>loja</tipologia>
+    <localidade>Coimbra</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>1961</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Fraldário</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>WC</designacao>
+          <capacidade>2</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>2000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="4">
+    <nome>Braga Parque</nome>
+    <tipologia>loja</tipologia>
+    <localidade>Braga</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>2500</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Multibanco</designacao>
+          <capacidade>10</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Fraldário</designacao>
+          <capacidade>3</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>WC</designacao>
+          <capacidade>12</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Ventilação Natural</descricao>
+          <custo>1000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="5">
+    <nome>MaiaShopping</nome>
+    <tipologia>loja</tipologia>
+    <localidade>Maia</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>1000</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Multibanco</designacao>
+          <capacidade>5</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Fraldário</designacao>
+          <capacidade>2</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>WC</designacao>
+          <capacidade>2</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Plataforma elevatória de escadas</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Ventilação Natural</descricao>
+          <custo>1000</custo>
+      </proposta>
+    <nivelSatisfacao>45</nivelSatisfacao>
+  </edificio>
+  <edificio id="6">
+    <nome>Vila de Conde Fashion Outlet</nome>
+    <tipologia>loja</tipologia>
+    <localidade>Vila de Conde</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>500</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Multibanco</designacao>
+          <capacidade>5</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>WC</designacao>
+          <capacidade>10</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Plataforma elevatória de escadas</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Ventilação Natural</descricao>
+          <custo>1000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="7">
+    <nome>Castelo de Guimarães</nome>
+    <tipologia>monumento</tipologia>
+    <localidade>Guimarães</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>500</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="8">
+    <nome>Palácio Nacional da Pena</nome>
+    <tipologia>monumento</tipologia>
+    <localidade>Sintra</localidade>
+    <facilidade>
+          <designacao>Plataforma elevatória de escadas</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>500</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+    <nivelSatisfacao>25</nivelSatisfacao>
+  </edificio>
+  <edificio id="9">
+    <nome>Mosteiro da Batalha</nome>
+    <tipologia>monumento</tipologia>
+    <localidade>Batalha</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>500</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="10">
+    <nome>Palácio da Bolsa</nome>
+    <tipologia>monumento</tipologia>
+    <localidade>Porto</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>500</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>WC</designacao>
+          <capacidade>5</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="11">
+    <nome>La Bonne Crêpe</nome>
+    <tipologia>restaurante</tipologia>
+    <localidade>Viana do Castelo</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>10</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Plataforma elevatória de escadas</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>WC</designacao>
+          <capacidade>2</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="12">
+    <nome>MUU Steakhouse</nome>
+    <tipologia>restaurante</tipologia>
+    <localidade>Porto</localidade>
+    <facilidade>
+          <designacao>Plataforma elevatória de escadas</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>WC</designacao>
+          <capacidade>2</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Melhorar a iluminação envolvente</descricao>
+          <custo>1000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="13">
+    <nome>Restaurante Bela Época</nome>
+    <tipologia>restaurante</tipologia>
+    <localidade>Bragança</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>10</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Plataforma elevatória de escadas</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>WC</designacao>
+          <capacidade>2</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Multibanco</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="14">
+    <nome>Flor Da Rocha</nome>
+    <tipologia>hotel</tipologia>
+    <localidade>Portimão</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>50</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Piscina</designacao>
+          <capacidade>2</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+    <nivelSatisfacao>90</nivelSatisfacao>
+  </edificio>
+  <edificio id="15">
+    <nome>Jupiter Algarve Hotel</nome>
+    <tipologia>hotel</tipologia>
+    <localidade>Portimão</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>50</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Piscina</designacao>
+          <capacidade>2</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Melhorar a iluminação envolvente</descricao>
+          <custo>1000</custo>
+      </proposta>
+    <nivelSatisfacao>75</nivelSatisfacao>
+  </edificio>
+  <edificio id="16">
+    <nome>BessaHotel Baixa</nome>
+    <tipologia>hotel</tipologia>
+    <localidade>Felgueiras</localidade>
+    <facilidade>
+          <designacao>Parque de Estacionamento</designacao>
+          <capacidade>50</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Piscina</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>5000</custo>
+      </proposta>
+    <nivelSatisfacao>39</nivelSatisfacao>
+  </edificio>
+  <edificio id="17">
+    <nome>Torre Vasco da Gama</nome>
+    <tipologia>outro</tipologia>
+    <localidade>Évora</localidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="18">
+    <nome>Torre de Mosanto</nome>
+    <tipologia>outro</tipologia>
+    <localidade>Setúbal</localidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+    <nivelSatisfacao>9</nivelSatisfacao>
+  </edificio>
+  <edificio id="19">
+    <nome>Torres São Rafael/São Gabriel</nome>
+    <tipologia>outro</tipologia>
+    <localidade>Faro</localidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <facilidade>
+          <designacao>Sistema de Segurança</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+  </edificio>
+  <edificio id="20">
+    <nome>Torre do Lidador</nome>
+    <tipologia>outro</tipologia>
+    <localidade>Maia</localidade>
+    <facilidade>
+          <designacao>Wi-Fi</designacao>
+          <capacidade>1</capacidade>
+      </facilidade>
+    <proposta>
+          <descricao>Painéis fotovoltaicos</descricao>
+          <custo>4000</custo>
+      </proposta>
+    <nivelSatisfacao>100</nivelSatisfacao>
+  </edificio>
